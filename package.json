@@ -1,0 +1,17 @@
+{
+  "name": "@themaxdavitt/riot-games-apis-docs",
+  "version": "0.0.0",
+  "private": "true",
+  "scripts": {
+    "doc:riot-games-apis": "cpy node_modules/@themaxdavitt/riot-games-apis/docs/ docs/riot-games-apis/",
+    "postinstall": "run-p doc:*"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@themaxdavitt/league-of-legends-client-api": "*",
+    "@themaxdavitt/league-of-legends-unofficial-client-api": "*",
+    "@themaxdavitt/riot-games-apis": "*",
+    "cpy-cli": "^3.1.1",
+    "npm-run-all": "^4.1.5"
+  }
+}
