@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "private": "true",
   "scripts": {
-    "doc:riot-games-apis": "cpx node_modules/@themaxdavitt/riot-games-apis/docs/**/* docs/riot-games-apis/",
+    "doc:riot-games-apis": "cpx \"node_modules/@themaxdavitt/riot-games-apis/docs/**/*\" docs/riot-games-apis/",
     "postinstall": "run-p doc:*"
   },
   "license": "MIT",
