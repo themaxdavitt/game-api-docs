@@ -1,6 +1,6 @@
 {
 	"id": 0,
-	"name": "@themaxdavitt/riot-games-apis - v0.2021.49",
+	"name": "@themaxdavitt/riot-games-apis - v0.2021.68",
 	"kind": 0,
 	"flags": {},
 	"originalName": "",
@@ -45,7 +45,7 @@
 												"isOptional": true
 											},
 											"comment": {
-												"shortText": "This field may be excluded if the account doesn't have a gameName"
+												"shortText": "This field may be excluded from the response if the account doesn't have a gameName."
 											},
 											"sources": [
 												{
@@ -95,7 +95,7 @@
 												"isOptional": true
 											},
 											"comment": {
-												"shortText": "This field may be excluded if the account doesn't have a tagLine"
+												"shortText": "This field may be excluded from the response if the account doesn't have a tagLine."
 											},
 											"sources": [
 												{
@@ -46703,6 +46703,14 @@
 			"flags": {},
 			"children": [
 				{
+					"id": 2154,
+					"name": "Schemas",
+					"kind": 16777216,
+					"kindString": "Reference",
+					"flags": {},
+					"target": 10
+				},
+				{
 					"id": 6,
 					"name": "definition",
 					"kind": 32,
@@ -46713,7 +46721,7 @@
 					"sources": [
 						{
 							"fileName": "index.ts",
-							"line": 7,
+							"line": 9,
 							"character": 23
 						}
 					],
@@ -46744,7 +46752,7 @@
 					"sources": [
 						{
 							"fileName": "index.ts",
-							"line": 9,
+							"line": 11,
 							"character": 28
 						}
 					],
@@ -46789,6 +46797,13 @@
 				}
 			],
 			"groups": [
+				{
+					"title": "References",
+					"kind": 16777216,
+					"children": [
+						2154
+					]
+				},
 				{
 					"title": "Variables",
 					"kind": 32,
