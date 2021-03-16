@@ -4,6 +4,7 @@
   "private": "true",
   "scripts": {
     "doc:riot-games-apis": "cpx \"node_modules/@themaxdavitt/riot-games-apis/docs/**/*\" docs/riot-games-apis/",
+    "doc:league-of-legends-client-api": "cpx \"node_modules/@themaxdavitt/league-of-legends-client-api/docs/**/*\" docs/league-of-legends-client-api/",
     "postinstall": "run-p doc:*"
   },
   "license": "MIT",
